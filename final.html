@@ -1,0 +1,289 @@
+<!-- ... Previous HTML code ... -->
+<head>
+    <style>
+        /* Style for the quiz container */
+#quiz {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each question */
+.question {
+  margin-bottom: 20px;
+}
+
+/* Style for question text */
+.question p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for radio buttons */
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+/* Style for the submit button */
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the result container */
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+    </style>
+</head>
+<div id="quiz">
+    <!-- Question 1 -->
+    <div class="question">
+      <p>Question 1: What is the greatest color ever?</p>
+      <input type="radio" name="question1" value="option1"> Blue<br>
+      <input type="radio" name="question1" value="option2"> Green<br>
+      <input type="radio" name="question1" value="option3"> Black<br>
+      <input type="radio" name="question1" value="option4"> Purple<br>
+    </div>
+    
+    <div class="question">
+      <p>Question 2: What fruit makes up the smiley face in the plate?</p>
+      <input type="radio" name="question2" value="option1"> Raspberries<br>
+      <input type="radio" name="question2" value="option2"> Apples<br>
+      <input type="radio" name="question2" value="option3"> Strawberries<br>
+      <input type="radio" name="question2" value="option4"> Oranges<br>
+    </div>
+    
+    <div class="question">
+        <p>Question 3: Do normal people say they are normal?</p>
+        <input type="radio" name="question3" value="option1"> Perchance<br>
+        <input type="radio" name="question3" value="option2"> Yes<br>
+        <input type="radio" name="question3" value="option3"> Sometimes<br>
+        <input type="radio" name="question3" value="option4"> Never<br>
+      </div>
+      
+      <div class="question">
+        <p>Question 4: What is the best number out of these choices?</p>
+        <input type="radio" name="question4" value="option1"> 23<br>
+        <input type="radio" name="question4" value="option2"> 22<br>
+        <input type="radio" name="question4" value="option3"> 6<br>
+        <input type="radio" name="question4" value="option4"> 8<br>
+      </div>
+      <div class="question">
+        <p>Question 5: How tall was I initially before the shrinkage?</p>
+        <input type="radio" name="question5" value="option1"> 5'10<br>
+        <input type="radio" name="question5" value="option2"> 5'5<br>
+        <input type="radio" name="question5" value="option3"> 5'3<br>
+        <input type="radio" name="question5" value="option4"> 4'11<br>
+      </div>
+      
+      <div class="question">
+        <p>Question 6: What chemical has been tasted in chem lab?</p>
+        <input type="radio" name="question6" value="option1"> H2SO4<br>
+        <input type="radio" name="question6" value="option2"> HCl<br>
+        <input type="radio" name="question6" value="option3"> HBr<br>
+        <input type="radio" name="question6" value="option4"> H2Cl2<br>
+      </div>
+      
+      <div class="question">
+          <p>Question 7: What you lacked was not wind but _______ ?</p>
+          <input type="radio" name="question7" value="option1"> Courage<br>
+          <input type="radio" name="question7" value="option2"> Honor<br>
+          <input type="radio" name="question7" value="option3"> Bravery<br>
+          <input type="radio" name="question7" value="option4"> Respect<br>
+        </div>
+        
+        <div class="question">
+          <p>Question 8: Are you ally or a new ____ ?</p>
+          <input type="radio" name="question8" value="option1"> Wave<br>
+          <input type="radio" name="question8" value="option2"> Hurricane<br>
+          <input type="radio" name="question8" value="option3"> Ocean<br>
+          <input type="radio" name="question8" value="option4"> Storm<br>
+        </div>
+        <div class="question">
+            <p>Question 9: What was the important date in November?</p>
+            <input type="radio" name="question9" value="option1"> 22nd 8:30 AM<br>
+            <input type="radio" name="question9" value="option2"> 22nd 9:30 AM<br>
+            <input type="radio" name="question9" value="option3"> 23rd 8:30 AM<br>
+            <input type="radio" name="question9" value="option4"> 23rd 9:30 AM<br>
+          </div>
+          
+          <div class="question">
+            <p>Question 10: Bright lights like ______ ?</p>
+            <input type="radio" name="question10" value="option1"> Thanskgiving<br>
+            <input type="radio" name="question10" value="option2"> New Years<br>
+            <input type="radio" name="question10" value="option3"> Halloween<br>
+            <input type="radio" name="question10" value="option4"> Christmas<br>
+          </div>
+          
+          <div class="question">
+              <p>Question 11: In the month of November what was the wordle supposed to be?</p>
+              <input type="radio" name="question11" value="option1"> Arrow<br>
+              <input type="radio" name="question11" value="option2"> Aloud<br>
+              <input type="radio" name="question11" value="option3"> Shear<br>
+              <input type="radio" name="question11" value="option4"> Sheer<br>
+            </div>
+            
+            <div class="question">
+              <p>Question 12: Is the wink emoji ironic?</p>
+              <input type="radio" name="question12" value="option1"> Always<br>
+              <input type="radio" name="question12" value="option2"> Sometimes<br>
+              <input type="radio" name="question12" value="option3"> Never<br>
+              <input type="radio" name="question12" value="option4"> Occasionally<br>
+            </div>
+            <div class="question">
+              <p>Question 13: According to my mom science is an ____ ?</p>
+              <input type="radio" name="question13" value="option1"> Art<br>
+              <input type="radio" name="question13" value="option2"> Illusion<br>
+              <input type="radio" name="question13" value="option3"> Interdisciplinary endeavor<br>
+              <input type="radio" name="question13" value="option4"> Waste of time<br>
+            </div>
+            
+            <div class="question">
+              <p>Question 14: What is in that little bottle of cologne?</p>
+              <input type="radio" name="question14" value="option1"> Tom Ford<br>
+              <input type="radio" name="question14" value="option2"> YSL EDP<br>
+              <input type="radio" name="question14" value="option3"> Hibiscus<br>
+              <input type="radio" name="question14" value="option4"> Dior Sauvage<br>
+            </div>
+            
+            <div class="question">
+                <p>Question 15: What day are all the jungli on the basketball courts?</p>
+                <input type="radio" name="question15" value="option1"> Thursday<br>
+                <input type="radio" name="question15" value="option2"> Wednesday<br>
+                <input type="radio" name="question15" value="option3"> Tuesday<br>
+                <input type="radio" name="question15" value="option4"> Sunday<br>
+              </div>
+              
+              <div class="question">
+                <p>Question 16: That scrapbook has moved with me through 5 houses</p>
+                <input type="radio" name="question16" value="option1"> True<br>
+                <input type="radio" name="question16" value="option2"> False<br>
+               
+              </div>
+              <div class="question">
+                <p>Question 17: Water and a yogurt is the snack for aot </p>
+                <input type="radio" name="question17" value="option1"> True<br>
+                <input type="radio" name="question17" value="option2"> False<br>
+            
+              </div>
+              
+              <div class="question">
+                <p>Question 18: I'm an 8 year veteran here </p>
+                <input type="radio" name="question18" value="option1"> True<br>
+                <input type="radio" name="question18" value="option2"> False<br>
+              
+              </div>
+              
+              <div class="question">
+                  <p>Question 19: Deathnote is the first anime I have ever finished</p>
+                  <input type="radio" name="question19" value="option1"> True<br>
+                  <input type="radio" name="question19" value="option2"> False<br>
+
+                </div>
+                
+                <div class="question">
+                  <p>Question 20:  3 Idiots is the greatest desi film</p>
+                  <input type="radio" name="question20" value="option1"> True<br>
+                  <input type="radio" name="question20" value="option2"> False<br>
+             
+                </div>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                  <title>Quiz</title>
+                </head>
+                <body>
+                
+                <!-- Quiz HTML -->
+                <div id="quiz">
+                  <!-- ... (Your quiz questions and options) ... -->
+                
+                  <!-- Submit Button -->
+                  <button onclick="gradeQuiz()">Submit</button>
+                </div>
+                
+                <!-- Result Container -->
+                <div id="result"></div>
+                
+                <!-- JavaScript for quiz grading -->
+                <script>
+                  function gradeQuiz() {
+                    // Define answers
+                    const answers = {
+                      question1: 'option1',
+                      question2: 'option3',
+                      question3: 'option4',
+                      question4: 'option2',
+                      question5: 'option3',
+                      question6: 'option2',
+                      question7: 'option1',
+                      question8: 'option4',
+                      question9: 'option2',
+                      question10: 'option4',
+                      question11: 'option1',
+                      question12: 'option3',
+                      question13: 'option1',
+                      question14: 'option4',
+                      question15: 'option2',
+                      question16: 'option1',
+                      question17: 'option1',
+                      question18: 'option2',
+                      question19: 'option1',
+                      question20: 'option2',
+                    
+                      // Add the correct answers for all questions here
+                      // For brevity, only a few answers are included
+                    };
+                
+                    // Calculate score
+                    let score = 0;
+                    for (let i = 1; i <= Object.keys(answers).length; i++) {
+                      const questionName = 'question' + i;
+                      const selectedAnswer = document.querySelector(`input[name="${questionName}"]:checked`);
+                
+                      if (selectedAnswer) {
+                        if (selectedAnswer.value === answers[questionName]) {
+                          score++;
+                        }
+                      }
+                    }
+                
+                    // Display result on the same page
+                    const resultContainer = document.getElementById('result');
+                    if (score > 14) {
+                      resultContainer.innerHTML = 'PASS';
+                    } else {
+                      resultContainer.innerHTML = 'HIATUS INCOMING';
+                    }
+                  }
+                </script>
+                
+                </body>
+                </html>
+                
+    <!-- Submit Button -->
+    <button onclick="gradeQuiz()">Submit</button>
+  </div>
+  
+  <div id="result"></div>
+  
+  <!-- ... Rest of the HTML code ... -->
+  
